@@ -1,4 +1,5 @@
-package com.selimhorri.app.service.impl;
+package com.selimhorri.app.service;
+
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.*;
