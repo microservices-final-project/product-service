@@ -1,5 +1,4 @@
-package com.selimhorri.app.service;
-
+package com.selimhorri.app.unit.service;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.*;
@@ -18,7 +17,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import com.selimhorri.app.domain.Category;
 import com.selimhorri.app.dto.CategoryDto;
 import com.selimhorri.app.exception.wrapper.CategoryNotFoundException;
-import com.selimhorri.app.helper.CategoryMappingHelper;
 import com.selimhorri.app.repository.CategoryRepository;
 import com.selimhorri.app.repository.ProductRepository;
 import com.selimhorri.app.service.impl.CategoryServiceImpl;

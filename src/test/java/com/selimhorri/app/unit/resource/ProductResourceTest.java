@@ -1,4 +1,4 @@
-package com.selimhorri.app.resource;
+package com.selimhorri.app.unit.resource;
 
 import static org.mockito.ArgumentMatchers.*;
 import static org.mockito.Mockito.*;
@@ -20,6 +20,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.selimhorri.app.dto.ProductDto;
 import com.selimhorri.app.exception.ApiExceptionHandler;
+import com.selimhorri.app.resource.ProductResource;
 import com.selimhorri.app.service.ProductService;
 
 @ExtendWith(MockitoExtension.class)
