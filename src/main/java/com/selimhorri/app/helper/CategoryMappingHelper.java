@@ -22,7 +22,6 @@ public interface CategoryMappingHelper {
 				.categoryId(categoryDto.getCategoryId())
 				.categoryTitle(categoryDto.getCategoryTitle())
 				.imageUrl(categoryDto.getImageUrl())
-
 				.build();
 	}
 	
