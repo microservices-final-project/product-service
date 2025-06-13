@@ -32,6 +32,7 @@ public interface ProductMappingHelper {
 				.sku(productDto.getSku())
 				.priceUnit(productDto.getPriceUnit())
 				.quantity(productDto.getQuantity())
+				
 				.category(
 						Category.builder()
 							.categoryId(productDto.getCategoryDto().getCategoryId())
